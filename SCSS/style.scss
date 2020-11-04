@@ -1,0 +1,114 @@
+@import "colores";
+
+
+
+
+body {
+    width: 100%;
+    background: $lightgray !important;
+    font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    
+ }
+ 
+ .h1 {
+    font-weight: 800 !important;
+ }
+ h1 {
+    font-weight: 800 !important;
+ }
+
+ .h2 {
+    font-weight: 700 !important;
+ }
+ h2 {
+    font-weight: 700 !important;
+ }
+ 
+ #intro {
+     padding:150px 50px 150px 50px;
+     background-color: $darkgray;    
+     color: $white;
+
+     h5{
+        color: $green;
+    }
+ 
+ }
+
+ 
+ .btn-outline-info {
+     color:$green;
+     background-color: transparent;
+     border-color: $green;
+     border-width: 2px;
+        
+        :hover{
+            color:$white;
+            background-color: $green;
+            border-color: $green;
+            border-width: 2px;
+
+        }
+
+        :focus{
+            color:$white;
+            background-color: $green;
+            border-color: $green;
+            border-width: 2px;
+
+        }
+ }
+     
+ .row{
+     justify-content: center;
+     
+ }
+ 
+
+
+ .card {
+     margin: 3%;
+     border-radius: 2px;
+     padding: 16px;
+     background-color: $blue;
+     color: $white;
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ li  {
+    list-style-type: none;
+ }
+
+ .card-title {
+    color: $white;
+ }
+ .text-muted {
+    color: $white!important;
+}
+ 
+ .card:hover {
+    background-color: $darkblue;
+     box-shadow: 8px 12px 31px -10px #abafe7;
+   }
+
+#team{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardwork {
+   
+     border-radius: 2px;
+     padding: 16px;
+     background-color: $white;
+     color: $darkgray;
+}
